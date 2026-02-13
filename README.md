@@ -14,6 +14,8 @@ La startup "Sano y Fresco" experimentó un crecimiento acelerado, pero enfrenta 
 
 - **Algoritmos**: Market Basket Analysis (Reglas de Asociación).
 
+➡️➡️ Consultá el Diccionario de Datos [aquí](data/DATA_DICTIONARY.md)
+
 ## 📊 1. Diagnóstico Analítico (SQL)
 Se utilizó el framework *Negocio → Pregunta → Consulta* para extraer insights críticos de la base de datos comercial:
 
@@ -36,6 +38,7 @@ Se diseñó un dashboard interactivo bajo un Documento de Requerimientos Funcion
 
 - **Visualización de Inventario**: Treemap de unidades vendidas para identificar rápidamente los productos estrella.
 
+
 ## 🤖 3. Optimización mediante IA (Market Basket Analysis)
 Para revertir la tendencia de ventas, se implementó un algoritmo de Reglas de Asociación que analiza patrones consistentes de compra.
 
@@ -52,7 +55,8 @@ Para garantizar la calidad de las recomendaciones de "Sano y Fresco", nos basamo
 
 - **Lift**: Es la métrica de "interés". Nos indica cuánto aumenta la probabilidad de venta del producto B cuando se incluye el A, en comparación con si se compraran de forma independiente. Un Lift > 1 indica una relación positiva fuerte, ideal para estrategias de cross-selling.
 
-##💡 Recomendaciones Estratégicas
+
+## 💪 Recomendaciones Estratégicas
 - Diversificación: Impulsar los departamentos menos representados para reducir la dependencia del Dpto 4.
 
 - Estrategia de Upselling: Utilizar los patrones del Market Basket Analysis para ofrecer "Combos Saludables" automáticos.
