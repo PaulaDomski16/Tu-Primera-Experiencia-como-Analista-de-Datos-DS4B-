@@ -43,6 +43,15 @@ Para revertir la tendencia de ventas, se implementó un algoritmo de Reglas de A
 
 **Impacto esperado**: Incrementar la cantidad de artículos por pedido y diversificar la compra hacia secciones con menor rotación.
 
+### 📊 Métricas Clave del Algoritmo
+Para garantizar la calidad de las recomendaciones de "Sano y Fresco", nos basamos en tres indicadores fundamentales:
+
+- **Soporte (Support)**: Mide la popularidad de un conjunto de productos. Indica qué tan frecuente es que un artículo (o grupo de ellos) aparezca en el total de transacciones. Por ejemplo, un soporte de 0.07 para las "Bananas" significa que están presentes en el 7% de los tickets.
+
+**Confianza (Confidence)**: Mide la probabilidad de que un cliente compre el producto B dado que ya compró el producto A. Es vital para entender la fuerza de la asociación entre, por ejemplo, "Paltas" y "Limones".
+
+**Lift**: Es la métrica de "interés". Nos indica cuánto aumenta la probabilidad de venta del producto B cuando se incluye el A, en comparación con si se compraran de forma independiente. Un Lift > 1 indica una relación positiva fuerte, ideal para estrategias de cross-selling.
+
 ##💡 Recomendaciones Estratégicas
 - Diversificación: Impulsar los departamentos menos representados para reducir la dependencia del Dpto 4.
 
