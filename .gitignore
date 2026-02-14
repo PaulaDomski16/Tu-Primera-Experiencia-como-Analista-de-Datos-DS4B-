@@ -1,0 +1,35 @@
+# --- Entornos Virtuales ---
+# Ignora las carpetas de librerías instaladas localmente
+.venv/
+venv/
+env/
+bin/
+lib/
+
+# --- Jupyter Notebooks ---
+# Archivos temporales de guardado automático de Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# --- Archivos de Python ---
+# Byte-compiled / archivos optimizados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Bases de Datos y Datos Pesados ---
+# Como profesional, no subes la BD entera si es pesada o privada
+*.db
+*.sqlite
+*.csv
+*.xlsx
+# Excepción: si quieres subir 'secciones.xlsx' porque es pequeña y necesaria, 
+# puedes ignorar esta regla usando !secciones.xlsx
+
+# --- Sistemas Operativos ---
+.DS_Store
+Thumbs.db
+
+# --- Power BI ---
+# Archivos temporales de PBI
+*.tmp
