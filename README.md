@@ -1,5 +1,4 @@
-# Proyecto: 
-# 🍎 Análisis de Datos y Estrategia de Crecimiento: Startup "Sano y Fresco"
+# Proyecto: 🍎 Análisis de Datos y Estrategia de Crecimiento: ***Startup "Sano y Fresco***"
 Este proyecto aborda la problemática de caída de ventas de una startup de e-commerce de productos saludables. A través de un enfoque integral que combina SQL, Power BI y Machine Learning, se estableció una "verdad única" de datos para la toma de decisiones estratégicas y se desarrolló un motor de recomendaciones para aumentar el ticket medio.
 
 ## 🎯 Escenario de Negocio
